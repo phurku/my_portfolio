@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Phurkima Sherpa Portfolio",
   description: "Portfolio website of Phurkima Sherpa - Cloud/IT Professional",
+  icons: {
+    icon: "/Images/profile.jpeg",
+  },
 };
 
 export default function RootLayout({

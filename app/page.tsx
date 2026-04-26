@@ -31,8 +31,8 @@ export default function Home() {
 
           </div>
           <div className="flex flex-col items-start">
-            <h1 className="text-4xl font-bold text-blue-900 dark:text-blue-200 tracking-tight">Hi, I'm Phurkima Sherpa 👋</h1>
-            <p className="text-lg text-zinc-700 dark:text-zinc-300">Cloud/IT Professional based in Gosford, NSW</p>
+            <h1 className="text-4xl font-bold text-blue-900 dark:text-blue-200 tracking-tight">Hello, I'm Phurkima Sherpa 👋</h1>
+            <p className="text-lg text-zinc-700 dark:text-zinc-300">Cloud/IT Support Engineer</p>
             <p className="text-base text-zinc-600 dark:text-zinc-400 mt-2">Welcome to my personal portfolio! I love technology, helping people, and learning new things. Let's connect!</p>
             <div className="flex gap-4 mt-2">
               <a href="mailto:phurku2017@gmail.com" className="text-blue-700 hover:text-blue-900 dark:text-blue-300" title="Email"><FaEnvelope size={22} /></a>
@@ -44,7 +44,7 @@ export default function Home() {
         {/* Short Summary */}
         <section className="mb-8 p-6 rounded-xl shadow-lg bg-white/80 dark:bg-zinc-900/80 animate-slideup">
           <h2 className="text-2xl font-semibold mb-2 flex items-center gap-2"><FaUserTie /> About Me</h2>
-          <p className="text-zinc-800 dark:text-zinc-200">I'm a curious and friendly IT enthusiast who loves working with cloud technology and helping others. I enjoy solving problems, learning new skills, and collaborating with people from different backgrounds. Outside of tech, I like hiking, exploring new places, and sharing a good cup of coffee with friends.</p>
+          <p className="text-zinc-800 dark:text-zinc-200">I'm a curious and friendly IT enthusiast who loves working with cloud and other IT technologies and helping others to meet their daily needs. I enjoy solving problems, learning new skills, and collaborating with people from different backgrounds. Outside of tech, I like hiking, exploring new places, and sharing a good cup of coffee with friends.</p>
         </section>
         {/* Certifications */}
         <section id="certifications" className="mb-8 p-6 rounded-xl shadow-lg bg-white/80 dark:bg-zinc-900/80 animate-slideup delay-150">
@@ -113,7 +113,7 @@ export default function Home() {
         {/* Portfolio Projects */}
         <section id="projects" className="mb-8 p-6 rounded-xl shadow-lg bg-white/80 dark:bg-zinc-900/80 animate-slideup delay-400">
           <h2 className="text-2xl font-semibold mb-2 flex items-center gap-2"><FaTools /> Portfolio Projects</h2>
-          <div className="grid grid-cols-1 gap-4">
+          {/* <div className="grid grid-cols-1 gap-4">
             <div className="p-4 rounded-lg bg-blue-50 dark:bg-zinc-800 shadow">
               <h3 className="font-bold text-blue-800 dark:text-blue-200">Cloud Migration Demo</h3>
               <p className="text-zinc-700 dark:text-zinc-200">A simulated migration of on-premises resources to Azure, focusing on identity and access management.</p>
@@ -122,12 +122,11 @@ export default function Home() {
               <h3 className="font-bold text-blue-800 dark:text-blue-200">IT Support Ticketing</h3>
               <p className="text-zinc-700 dark:text-zinc-200">A simple ticketing system built with React and Node.js to track and resolve IT support requests.</p>
             </div>
-          </div>
+          </div> */}
         </section>
 
         {/* Footer/Contact */}
         <footer className="text-center py-4 text-zinc-500 dark:text-zinc-400 animate-fadein">
-          <div>Made with ❤️ by Phurkima Sherpa</div>
           <div className="mt-1">Let's connect and build something great together!</div>
           <div className="mt-1">&copy; {new Date().getFullYear()} Phurkima Sherpa</div>
         </footer>
