@@ -13,10 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Phurkima Sherpa Portfolio",
+  title: "Phurkima Sherpa | Cloud & IT Support Engineer",
   description: "Portfolio website of Phurkima Sherpa - Cloud/IT Professional",
   icons: {
-    icon: "/Images/profile.jpeg",
+    icon: "/blank.svg",
+    shortcut: "/blank.svg",
+    apple: "/blank.svg",
   },
 };
 
